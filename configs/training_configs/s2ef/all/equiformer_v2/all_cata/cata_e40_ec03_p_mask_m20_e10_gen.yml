@@ -2,14 +2,14 @@ trainer: equiformerv2_forces
 
 
 dataset:
-  - src: /ssd/liwentao/MLFF-TS-Search/final_data/mix_data/train
+  - src: ./data/gen_cata_data/train/
     normalize_labels: True
     target_mean: 0       # -0.7554450631141663 这里要修改能量的均值，使得预测更加合理
     target_std: 1.0  # 2.887317180633545
     grad_target_mean: 0.0
     grad_target_std: 0.5429860192048 # 2.887317180633545
-  - src: /ssd/liwentao/MLFF-TS-Search/final_data/mix_data/test
-  - src: /ssd/liwentao/MLFF-TS-Search/final_data/mix_data/test
+  - src: ./data/gen_cata_data/test/
+  - src: ./data/gen_cata_data/test/
 
 
 logger:
