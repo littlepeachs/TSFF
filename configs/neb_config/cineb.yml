@@ -1,0 +1,10 @@
+neb_algorithm: NEB
+method: aseneb
+interpolation: idpp
+n_images: 10 # 10
+fmax: 0.05 # 0.03
+cineb_max_step: 0.03 # 0.025
+climb: True
+optimizer: ODE
+k: 0.1
+steps: 500 # 750

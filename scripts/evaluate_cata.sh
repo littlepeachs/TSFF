@@ -1,0 +1,1 @@
+python -m evaluating.evaluate_direct --run_num 10

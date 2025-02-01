@@ -1,0 +1,14 @@
+neb_algorithm: NEB
+method: aseneb
+interpolation: idpp
+n_images: 10 # 8
+fmax: 0.5 # 0.2
+climb: False
+optimizer: ODE
+k: 0.1
+steps: 200
+neb_max_step: 0.03
+
+restart: True
+
+debug: False
