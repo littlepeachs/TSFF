@@ -175,7 +175,7 @@ This repository implements machine learning force field method on transition sta
 You can download the Transition1x dataset from [here](), unzip and put the data folder in a directory structure similar to the previous code.
 
 ### Download Model
-You can download the model from [here](), unzip and put the model folder in a directory structure similar to the previous code.
+You can download the model from [here](https://figshare.com/s/a9cb80b2bd5bf1d5ba74), unzip and put the model folder in a directory structure similar to the previous code.
 
 ```
 unzip data.zip
