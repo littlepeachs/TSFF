@@ -178,8 +178,8 @@ You can download the Transition1x dataset from [here](), unzip and put the data 
 You can download the model from [here](), unzip and put the model folder in a directory structure similar to the previous code.
 
 ```
-wget 
 unzip data.zip
+unzip final_checkpoints.zip
 ```
 ## Experiment
 
