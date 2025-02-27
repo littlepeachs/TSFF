@@ -182,10 +182,20 @@ unzip data.zip
 unzip final_checkpoints.zip
 ```
 ## Requirements
+Run 
 ```
-Run pip install -r requirements.txt to install the required packages.
+pip install -r requirements.txt
 ```
+to install the required packages.
 
+Run 
+```
+pip install torch_cluster-1.6.1+pt20cu118-cp38-cp38-linux_x86_64.whl
+pip install torch_scatter-2.1.1+pt20cu118-cp38-cp38-linux_x86_64.whl
+pip install torch_sparse-0.6.18+pt20cu118-cp38-cp38-linux_x86_64.whl
+pip install torch_spline_conv-1.2.2+pt20cu118-cp38-cp38-linux_x86_64.whl
+```
+to install other torch dependencies
 ## Experiment
 
 ### 1. Transition State Search on Transition1x Dataset
