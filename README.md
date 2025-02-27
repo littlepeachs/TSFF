@@ -181,6 +181,9 @@ You can download the **all model checkpoints** from [here](https://figshare.com/
 unzip data.zip
 unzip final_checkpoints.zip
 ```
+## Requirements
+Run pip install -r requirements.txt to install the required packages.
+
 ## Experiment
 
 ### 1. Transition State Search on Transition1x Dataset
